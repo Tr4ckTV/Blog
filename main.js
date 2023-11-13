@@ -1,10 +1,10 @@
-import * as bootstrap from 'bootstrap';
-import './style.css';
-import { data } from './data';
-import { nav } from './nav';
+import * as bootstrap from "bootstrap";
+import "./style.css";
+import { data } from "./data";
+import { nav } from "./nav";
 
 const listePersonnes = () => {
-  let html = '';
+  let html = "";
   for (let i = 0; i < data.length; i++) {
     const personne = data[i];
     let personneCard = `
@@ -24,7 +24,7 @@ const listePersonnes = () => {
   return html;
 };
 
-document.querySelector('#app').innerHTML = `
+document.querySelector("#app").innerHTML = `
   <main>
     ${nav}
 

@@ -1,13 +1,23 @@
 <!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Annuaire</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Blog</title>
+</head>
+
+<body>
+  <section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto" id="content">
+        <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">From the blog</h1>
+
+        <div class="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2" id="menu">
+        </div>
+    </div>
+  </section>
+  <script type="module" src="nav.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+
 </html>
